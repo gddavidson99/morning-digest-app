@@ -18,7 +18,12 @@ gem 'uglifier', '>= 1.3.0'
 
 # Use jquery as the Javascript library
 gem 'jquery-rails'
+# Use bootstrap to beautify
 gem 'bootstrap-sass'
+# Use rest-client for JSON parsing
+gem 'rest-client'
+# Grab the users location
+gem 'geocoder'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
