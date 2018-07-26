@@ -1,0 +1,2 @@
+module GeolocatorsHelper
+end
