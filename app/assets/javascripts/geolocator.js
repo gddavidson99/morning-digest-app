@@ -5,7 +5,7 @@ if (navigator.geolocation) {
       data: { latitude: position.coords.latitude, longitude: position.coords.longitude },
       method: 'POST',
       url: '/geolocators',
-      dataType: 'script'
+      dataType: 'script',
     });
 
   });

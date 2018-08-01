@@ -2,11 +2,6 @@ class DigestController < ApplicationController
   protect_from_forgery except: :index
 
   def index
-    @weather = Weather.new 'Solon'
-    @data = get_raw_weather_data
-    @description = get_weather_description
-    @temperature = get_temperature_in_farenheit
-    @weather_message = get_temperature_message @temperature
   end
 
   private
